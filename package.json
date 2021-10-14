@@ -1,0 +1,18 @@
+{
+  "name": "bchd-api",
+  "version": "1.0.0",
+  "description": "A collection of funtions to interact with BCHD via REST API, so you dont have to worry about the gRPC stuff.",
+  "scripts": {
+    "lint": "standard --env mocha --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gary Nadir <nadirgary@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "google-protobuf": "^3.18.1"
+  },
+  "devDependencies": {
+    "standard": "^16.0.4"
+  }
+}
